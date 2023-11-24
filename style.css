@@ -1,0 +1,241 @@
+html body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+h1,h2,h3,h4,h5,h6,p,span,div{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.course{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.course .input{
+    display: flex;
+    padding: 0.3;
+    cursor: pointer;
+}
+.input :hover{
+    background-color: rgb(252, 239, 239);
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.input input{
+    height: 1.8rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.course .input img{
+    height: 25px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h2{
+    color: #0a2a66;
+    font-weight: bold;
+}
+.logo h2:hover{
+    color: blue;
+}
+
+.menu ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 2.5rem;
+    font-weight: bold;
+}
+.menu ul li{
+    color:#0a2a66;
+    cursor: pointer;
+}
+ul li:hover{
+    color:#1865f2;
+}
+.learn-anything{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
+    height: 22rem;
+    gap: 1.5rem;
+}
+.learn-img{
+    background-image: url('/images/hero_khanmigo_2x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.learn-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30rem;
+    gap: 1rem;
+}
+.learn-content h1{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.learn-content p{
+    font-size: 14px;
+    max-width: 29rem;
+    font-weight: 500;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+
+}
+.button-container button{
+    outline: none;
+    border: none;
+    background-color: blue;
+    padding: 0.7rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.button-container button:hover{
+    border: 1px solid white;
+}
+.border-btn{
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.border-btn:hover{
+    border: 2px solid blue;
+}
+
+
+.learn-anything .button-container p{
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.learn-anything .button-container p:hover{
+    border-bottom: 2px solid blue;
+}
+.container{
+    width: 86%;
+    margin: 0 auto;
+}
+
+.classes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8rem;
+    row-gap: 5rem;
+    row-gap: 1.5rem;
+    position: relative;
+    padding: 2rem  0rem;
+}
+.classes div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.classes div div{
+    gap: 0.8rem;
+}
+.classes div img:first-child{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -35%;
+    background-color: green;
+    width: 2rem;
+    height: 2rem;
+
+}
+.learning-wrapper{
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin:1.5rem 3rem;
+}
+
+.why-khan{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.why-khan h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem;
+}
+.why-khan .academic {
+    display: flex;
+}
+
+.academic .academics-learning{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 90%;
+    margin: 0 auto;
+    column-gap: 5rem;
+
+}
+
+.academic-content-wrapper{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.academic-content-wrapper h3{
+
+}
+.academic-content-wrapper p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.academic-content-wrapper .img-container{
+    height: 7rem;
+    width: 7rem;
+}
+
+.academic-content-wrapper .img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.classes-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
